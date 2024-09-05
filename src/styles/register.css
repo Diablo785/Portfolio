@@ -1,0 +1,47 @@
+.registerContainer {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .registerForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registerFormGroup {
+    margin-bottom: 1rem;
+  }
+  
+  .registerFormGroup label {
+    font-weight: bold;
+  }
+  
+  .registerFormGroup input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .messageCont {
+    margin-top: 1rem;
+  }
+  
+  .success-message {
+    color: green;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .signin-text {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .signin-text span {
+    color: #007bff;
+    cursor: pointer;
+  }
+  

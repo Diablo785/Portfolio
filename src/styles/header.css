@@ -1,0 +1,54 @@
+.HeaderCont {
+    width: 100vw;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.35);
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Header {
+    width: 45vw;
+    min-width: 300px;
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .IconWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .Icon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .Icon:hover {
+    scale: 1.1;
+  }
+  
+  .underline {
+    width: 0;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    bottom: -7px;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .underline.active {
+    width: 100%;
+  }
+  
+  .Icon.active ~ .underline {
+    width: 100%;
+  }

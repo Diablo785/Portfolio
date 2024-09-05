@@ -1,0 +1,185 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.InfoPage {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.infoPageHeader {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.infoPageHeader h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.infoPageHeader p {
+  font-size: 1.2em;
+  margin-bottom: -15px;
+  color: #bebebe;
+}
+
+.infoPageAbout,
+.infoPageContact,
+.infoPageExperience,
+.infoPageProjects,
+.reviews {
+  margin-bottom: 40px;
+}
+
+.infoPageAbout h2,
+.infoPageContact h2,
+.infoPageExperience h2,
+.infoPageProjects h2,
+.reviews h2 {
+  border-bottom: 2px solid #616161;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+.infoPageAbout p,
+.infoPageContact ul,
+.infoPageExperience ul,
+.infoPageProjects p,
+.infoPageProjects ul,
+.reviews ul {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.infoPageContact ul,
+.infoPageExperience ul,
+.infoPageProjects ul,
+.reviews ul {
+  list-style: none;
+  padding: 0;
+}
+
+.infoPageContact ul li,
+.infoPageExperience ul li,
+.infoPageProjects ul li,
+.reviews ul li {
+  margin-bottom: 10px;
+}
+
+.infoPageProjects ul li a,
+.infoPageContact ul li a,
+.reviews ul li a {
+  color: #bb86fc;
+  text-decoration: none;
+}
+
+.infoPageProjects ul li a:hover,
+.infoPageContact ul li a:hover,
+.reviews ul li a:hover {
+  text-decoration: underline;
+}
+
+.workExperience,
+.reviews {
+  display: flex;
+  justify-content: center;
+}
+
+.workExperienceContent,
+.reviewsContent {
+  width: 100%;
+  max-width: 900px; /* Adjust as needed */
+}
+
+.workExperience h2,
+.reviews h2 {
+  border-bottom: 2px solid #616161;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+.workExperienceItem,
+.reviewItem {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  width: calc(50% - 20px); /* Adjust as needed */
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.workExperienceItem:hover,
+.reviewItem:hover {
+  transform: translateY(-3px);
+  scale: 1.005;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.workExperienceItem h3,
+.reviewItem h3 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.workExperienceItem p,
+.reviewItem p {
+  font-size: 1.1em;
+  margin-bottom: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Enhanced Styles for InfoPageExperience */
+.infoPageExperience {
+  background-color: #202020;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.infoPageExperience h2 {
+  color: #bb86fc;
+  border-bottom: 2px solid #bb86fc;
+}
+
+.infoPageExperience canvas {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+  .workExperienceItem,
+  .reviewItem {
+    width: 85%;
+  }
+
+  .infoPageHeader h1 {
+    font-size: 2em;
+  }
+
+  .infoPageHeader p {
+    font-size: 1em;
+  }
+
+  .infoPageAbout h2,
+  .infoPageContact h2,
+  .infoPageExperience h2,
+  .infoPageProjects h2,
+  .reviews h2 {
+    font-size: 1.5em;
+  }
+}

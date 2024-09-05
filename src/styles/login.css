@@ -1,0 +1,72 @@
+.loginContainer {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 5px;
+    color: white;
+    z-index: 2;
+  }
+  
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginFormGroup {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: white;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .messageCont {
+    margin-top: 10px;
+  }
+  
+  .success-message {
+    color: green;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .signup-text {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .signup-text span {
+    color: #007bff;
+    cursor: pointer;
+  }
+
+  
